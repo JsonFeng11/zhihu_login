@@ -14,11 +14,11 @@ captchaURL = 'http://www.zhihu.com/captcha.gif?r=' + str(timestamp) + '&type=log
 headers = {
     "Host":"www.zhihu.com",
     "Referer":"https://www.zhihu.com/",
-    "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
+    "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
 }
 
 data = {
-    'phone_num ': '170****3854', # 你的手机号
+    'phone_num': '170****3854', # 你的手机号
     'pass' : '*********',  #你的密码
 }
 
